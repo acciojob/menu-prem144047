@@ -1,4 +1,3 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
 import React, { useState } from "react";
 import items from "./data";
 import Categories from "./Categories";
@@ -14,7 +13,7 @@ const allCategories = ["all","breakfast","lunch","shakes"]
 // 1st way
 // const finalArr = ["all",...tempArr]
 
-//2nd way
+// 2nd way
 // tempArr.unshift("all")
 // console.log(tempArr,finalArr)
 
